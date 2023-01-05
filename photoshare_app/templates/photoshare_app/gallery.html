@@ -61,6 +61,8 @@
                 
 
                 {% for photo in photos  %}
+
+                {% if photo.image %}
                 <div class="col-md-4">
                     <div class="card my-2" style="width: 18rem;">
                         <img class = "image-thumbnail" 
@@ -72,6 +74,8 @@
                         <a href = "{% url 'photo' photo.id %}" class="btn btn-outline-dark btn-sm m-1">View</a>
                     </div>
                 </div>
+
+                {% endif %}
                 {% empty %}
                 <h3>
                     No photos.....
