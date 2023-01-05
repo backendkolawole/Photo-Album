@@ -63,8 +63,10 @@
                 {% for photo in photos  %}
                 <div class="col-md-4">
                     <div class="card my-2" style="width: 18rem;">
+                        {% if photo.image %}
                         <img class = "image-thumbnail" 
                         src="{{ photo.image.url }}" class="card-img-top" alt="...">
+                        {% endif }
                         
                         <div class="card-body">
                             <small> Category: {{ photo.category.name }}</small>
