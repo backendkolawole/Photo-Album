@@ -1,11 +1,13 @@
-# django_capture
-## Motivation
+# django-capture
 
-### Goal
+`django-capture` is a Photo Gallery that allows the user to store images in album categories. django-capture is built with Python and Django
 
-⚙️ Installation
+## Goal
 
-## Other usage examples
-## Closing and resources 
+`django-capture` will help you organize your photos and make sure they are arranged and instantly accessible 
+
+## ⚙️ Installation
+
+## Usage examples
+
 ## Contact
-## Contributing
