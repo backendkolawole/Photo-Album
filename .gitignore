@@ -1,4 +1,4 @@
 .env
 myvirtualenv
 __pycache__
-static/
+static\
